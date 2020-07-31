@@ -11,3 +11,7 @@ div {
 header {
 text-align: center;
 }
+
+img {
+  width: 100%;
+}

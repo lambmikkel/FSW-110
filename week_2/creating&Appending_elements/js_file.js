@@ -13,12 +13,12 @@ element.appendChild(para);
 
 
 //List
-function createListItem(name) {
+function createListItem(list) {
   let li = document.createElement('li');
-  li.textContent = name;
+  li.textContent = list;
   return li;
 }
-// get the ul#menu
+// get the ul#list
 const menu = document.querySelector('#list');
 // add menu item
 menu.appendChild(createListItem('Home'));
